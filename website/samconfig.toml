@@ -1,0 +1,12 @@
+version=0.1
+[default.build.parameters]
+cached=true
+debug=true
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "web-test"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-bq4u5z3qhssv"
+s3_prefix = "web-test"
+region = "us-east-1"
+capabilities = ["CAPABILITY_IAM", "CAPABILITY_AUTO_EXPAND"]
+parameter_overrides = "HostedZoneId=\"Z05019253CWRXULLWH7DF\" DomainName=\"test.karchner.net\" CognitoDomain=\"signin.karchner.net\" IndieauthApiDomain=\"auth.karchner.net\" BlogName=\"Hey Hey\" BlogDescription=\"Hey\" AuthorName=\"Ross\" EmailAddress=\"ross@karchner.com\""
