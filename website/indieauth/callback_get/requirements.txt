@@ -3,3 +3,5 @@ chevron==0.14.0
 mf2py
 testresources
 requests
+charset-normalizer
+certifi

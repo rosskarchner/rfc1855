@@ -66,6 +66,8 @@ Resources:
 
   
   AuthorizationEndpointGet:
+    Metadata:
+      BuildMethod: makefile
     Type: AWS::Serverless::Function
     Properties:
       CodeUri: authorization_endpoint_get/
@@ -106,6 +108,8 @@ Resources:
             ApiId: !Ref IndieAuthApi
     
   CallbackGetFunction:
+    Metadata:
+      BuildMethod: makefile
     Type: AWS::Serverless::Function
     Properties:
       CodeUri: callback_get/

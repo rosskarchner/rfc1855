@@ -1,5 +1,4 @@
 boto3
-chevron==0.14.0
+chevron
 mf2py
 testresources
-wtforms

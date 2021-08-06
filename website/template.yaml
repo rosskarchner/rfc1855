@@ -201,7 +201,7 @@ Resources:
   IndieAuth:
     Type: AWS::Serverless::Application
     Properties: 
-      Location: indieauth/template.yaml
+      Location: indieauth/indieauth.yaml
       Parameters:
         CognitoDomain: !Ref CognitoDomain
         HostedZoneId: !Ref HostedZoneId
